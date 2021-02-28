@@ -11,7 +11,7 @@ import java.util.TimerTask;
 class CheckWlan{
   private Config c;
 
-  private final SimpleDateFormat FORMAT = new SimpleDateFormat("HH:mm:ss z"); //or "HH:mm:ss z"
+  private final SimpleDateFormat FORMAT = new SimpleDateFormat("yyyy.MM.DD EE  HH:mm:ss z"); //or "HH:mm:ss z"
   private final SimpleDateFormat FORMAT_SMALL = new SimpleDateFormat("HH:mm"); //or "HH:mm:ss z"
   private LogFile logfile = new LogFile();
   private WinNotification winnotific = new WinNotification("CheckWlan-Info");
