@@ -8,16 +8,16 @@ By automatically switching to mobile hotspot (or another WiFi) and back, users c
 ## Configuration (first step)
 Just create a config.txt file with this content:
 
-    |
-    | ip_router="666.666.666.1"
-    | ip_test="142.250.185.99"
-    |
-    | ssid_wlan="Vodafone-XXXX"
-    | ssid_hotspot="MyMobileHotspot"
-    |
-    | crash_period_minutes=45
-    | hotspot_period_minutes=5
-    |
+    
+    ip_router="666.666.666.1"
+    ip_test="142.250.185.99"
+    
+    ssid_wlan="Vodafone-XXXX"
+    ssid_hotspot="MyMobileHotspot"
+    
+    crash_period_minutes=45
+    hotspot_period_minutes=5
+    
 crash_period_minutes: Time between cyclically crashes.
 hotspot_period_minutes: Time after which a reconnection to wifi is attempted.
 
