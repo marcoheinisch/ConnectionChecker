@@ -1,4 +1,2 @@
 > start log  - www  - router
 2021.02.59 So.  13:20:11 MEZ - true - true -  - 
-2021.02.59 So.  13:20:31 MEZ - true - true -  - 
-2021.02.59 So.  13:20:51 MEZ - true - true -  - 
