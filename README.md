@@ -22,5 +22,10 @@ crash_period_minutes: Time between cyclically crashes.
 hotspot_period_minutes: Time after which a reconnection to wifi is attempted.
 
 ## Run it
-Trayicon with menu:
+Trayicon with menu (crash detected):
+
 ![grafik](https://user-images.githubusercontent.com/57726217/109417338-86146800-79c3-11eb-8de0-355c9883194b.png)
+
+Trayicon (no crash detected):
+
+![grafik](https://user-images.githubusercontent.com/57726217/109418114-e9ec6000-79c6-11eb-804f-e9d290372752.png)
