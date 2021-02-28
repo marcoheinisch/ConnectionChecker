@@ -1,14 +1,16 @@
 # CheckWlan
 
 ## Your Wlan crashs all 45 minutes?
-This java programm checks your wlan connection and throws a windows notification just before the next crash.
+This Java program checks your WiFi connection and issues a Windows notification in the event of a WiFi crash. If the crashes occur cyclically (like every 45 min), the next WiFi interruption is predicted and a notification is triggered shortly before the next interruption.
 
-## How to use it?
+By automatically switching to mobile hotspot (or another WiFi) and back, users can make a video call (e.g uni lecture) with unstable WiFi.
+
+## Configuration (first step)
 Just create a config.txt file with this content:
 
     |
     | ip_router="666.666.666.1"
-    | testip="172.217.16.195"
+    | ip_test="142.250.185.99"
     |
     | ssid_wlan="Vodafone-XXXX"
     | ssid_hotspot="MyMobileHotspot"
@@ -16,8 +18,9 @@ Just create a config.txt file with this content:
     | crash_period_minutes=45
     | hotspot_period_minutes=5
     |
-    
+crash_period_minutes: Time between cyclically crashes.
+hotspot_period_minutes: Time after which a reconnection to wifi is attempted.
 
-
-replace the router-ip with yours and run Main.java
-
+## Run it
+Trayicon with menu:
+![grafik](https://user-images.githubusercontent.com/57726217/109417338-86146800-79c3-11eb-8de0-355c9883194b.png)
